@@ -1,0 +1,2 @@
+: *.el |> cat %f > %o |> emacs
+.gitignore
