@@ -1,4 +1,5 @@
-(require 'tex-mode)
+(autoload 'tex-mode "tex-mode" "Tex mode." t)
+(setq auto-mode-alist (cons '("\\.tex$" . tex-mode) auto-mode-alist))
 
 (defun new-align-section ()
   "Insert a align* section."

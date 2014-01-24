@@ -6,8 +6,6 @@
   (normal-top-level-add-to-load-path '("."))
   (normal-top-level-add-subdirs-to-load-path))
 
-(require 'tup-mode)
-
 ;; Get rid of the menu bars
 (tool-bar-mode 0)
 (menu-bar-mode 0)
