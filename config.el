@@ -2,10 +2,6 @@
 (setq uniquify-buffer-name-style 'post-forward)
 (set-default-font "Terminus-10")
 
-(let ((default-directory "~/.emacs.d/lisp/"))
-  (normal-top-level-add-to-load-path '("."))
-  (normal-top-level-add-subdirs-to-load-path))
-
 ;; Get rid of the menu bars
 (tool-bar-mode 0)
 (menu-bar-mode 0)
