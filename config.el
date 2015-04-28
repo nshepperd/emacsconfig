@@ -1,6 +1,6 @@
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
-(set-default-font "Terminus-10")
+(set-default-font "Terminus-12")
 
 ;; Get rid of the menu bars
 (tool-bar-mode 0)
