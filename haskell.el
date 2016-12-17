@@ -1,7 +1,7 @@
 (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
 
-(add-to-list 'exec-path "~/.local/bin")
-(custom-set-variables '(haskell-tags-on-save t))
+;; (add-to-list 'exec-path "~/.local/bin")
+;; (custom-set-variables '(haskell-tags-on-save t))
 
 (add-hook 'haskell-mode-hook
           (lambda ()
